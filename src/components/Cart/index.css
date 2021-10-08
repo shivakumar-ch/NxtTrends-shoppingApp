@@ -1,0 +1,60 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.summary-div {
+  align-self: flex-end;
+  color: #616e7c;
+}
+
+.checkout-btn {
+  width: 100%;
+  color: #ffffff;
+  border-style: none;
+  background-color: #0b69ff;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+.remove-all-btn {
+  color: #0b69ff;
+  border-style: none;
+  background-color: transparent;
+  align-self: flex-end;
+}
+/* Write your CSS here */
